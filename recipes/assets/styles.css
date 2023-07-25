@@ -8,6 +8,7 @@ img{
 body{
     background: url(../../images/background.jpg) no-repeat center fixed;
     background-size: cover;
+    font-family: 'Asap Condensed', sans-serif;
 }
 
 h1{
@@ -24,9 +25,6 @@ h2{
     margin-top: 0;
     margin-bottom: 0;
     color:rgba(3, 165, 3, 0.788);
-    text-shadow: transparent;
-    text-shadow: forestgreen;
-    text-shadow: 3px;
 }
 
 
@@ -51,4 +49,16 @@ h1 a{
 h3{
     color: rgb(243, 15, 3);
 
+}
+
+.description p{
+    text-align: left;
+    width: 400px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+p .quantity{
+    font-size: 11px;
+    font-style: oblique;
 }
