@@ -1,0 +1,54 @@
+/* This sheet is for recipes */
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+body{
+    background: url(../../images/background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+
+}
+h2{
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:rgba(3, 165, 3, 0.788);
+    text-shadow: transparent;
+    text-shadow: forestgreen;
+    text-shadow: 3px;
+}
+
+
+.lasagna{
+    margin-bottom:-80px
+}
+
+.ravioli{
+    margin-bottom: -10px;
+}
+
+.food-image, .ravioli{
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+h1 a{
+    text-decoration: none;
+    color:black
+}
+
+h3{
+    color: rgb(243, 15, 3);
+
+}

@@ -1,3 +1,27 @@
+/* This sheet is for the home page */
+
 body{
     background: url(../images/background.jpg) no-repeat center fixed;
     background-size: cover;
+}
+
+h1{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* remove the link decoration from the recipes list and shage their color to black */
+
+li a{
+    text-decoration: none;
+    color: rgb(243, 15, 3);
+}
