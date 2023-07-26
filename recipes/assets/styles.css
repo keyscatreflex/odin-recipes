@@ -69,3 +69,23 @@ p .quantity{
     font-size: 11px;
     font-style: oblique;
 }
+ol li{
+    /* width: 600px; */
+    overflow-wrap: normal;
+    padding: 10px;
+    max-width: 600px;
+}
+
+ul, ol{
+    text-overflow: inherit;
+    /* text-indent: 20px; */
+}
+
+h4{
+    
+    /* flex-grow: unset; */
+    color: rgb(255, 136, 0);
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
