@@ -9,13 +9,29 @@ body{
     flex-direction: column;
 }
 
-h1{
+div a.title{
     font-size: 50px;
+    font-weight:700;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
+div a.title:hover{
+    color:crimson
+}
+img.chef{
+    max-width:400px;
+    height:auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
 
+    
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,7 +45,15 @@ li a{
     text-decoration: none;
     color: rgb(243, 15, 3);
     font-weight: 100;
-    font-size: 18px;
+    font-size: 18px;;
+}
+
+li a:hover{
+    color:black;
+}
+
+article{
+    margin-top: 3%;
 }
 
 footer{
@@ -37,4 +61,32 @@ footer{
     font-size: 12px;
     text-align: center;
     margin-top: auto;
+}
+
+.intro{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 100;
+    
+}
+.external{
+    text-decoration: none;
+}
+
+.external.social-media{
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+.external{
+    color:rgb(248, 26, 248);
+}
+.external:hover{
+    color: rgb(76, 217, 208);
+}
+
+.external:visited{
+    color: rgb(240, 8, 47);
 }

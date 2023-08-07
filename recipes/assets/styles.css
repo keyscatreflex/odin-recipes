@@ -5,8 +5,11 @@
 }
 
 img{
-    width: 150px;
+    width: 256px;
     height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
@@ -14,6 +17,8 @@ body{
     background-size: cover;
     font-family: 'Asap Condensed', sans-serif;
 }
+
+/* change the h1 tag to a div with an appropriate class selector and style appropriately */
 
 h1{
     font-family: 'Asap Condensed', sans-serif;
