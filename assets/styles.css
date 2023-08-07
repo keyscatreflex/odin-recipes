@@ -23,7 +23,7 @@ div a.title:hover{
     color:crimson
 }
 img.chef{
-    max-width:400px;
+    max-width:512px;
     height:auto;
     display:block;
     margin-left: auto;
@@ -44,8 +44,8 @@ ul {
 li a{
     text-decoration: none;
     color: rgb(243, 15, 3);
-    font-weight: 100;
-    font-size: 18px;;
+    font-weight: 300;
+    font-size: 20px;;
 }
 
 li a:hover{
@@ -65,7 +65,7 @@ footer{
 
 .intro{
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 100;
     
 }
