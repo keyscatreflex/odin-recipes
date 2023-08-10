@@ -2,6 +2,7 @@
 
 *{
     line-height: 1.5;
+    font-family: 'Asap Condensed', sans-serif;
 }
 
 img{
@@ -15,22 +16,26 @@ img{
 body{
     background: url(../../images/background.gif) no-repeat center fixed;
     background-size: cover;
-    font-family: 'Asap Condensed', sans-serif;
 }
 
 /* change the h1 tag to a div with an appropriate class selector and style appropriately */
 
-h1{
-    font-family: 'Asap Condensed', sans-serif;
+div a.title{
     font-size: 50px;
+    font-weight:700;
     margin-top: 0px;
     margin-bottom: 0px;
-    list-style-type: none;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 
 }
+div a.title:hover{
+    color: wheat;
+}
+
 h2{
-    font-family: 'Asap Condensed', sans-serif;
     font-weight: 600;
     font-size: 24px;
     margin-top: 0;
@@ -76,7 +81,6 @@ p .quantity{
     font-style: oblique;
 }
 ol li{
-    /* width: 600px; */
     overflow-wrap: normal;
     padding: 10px;
     max-width: 600px;
@@ -84,12 +88,9 @@ ol li{
 
 ul, ol{
     text-overflow: inherit;
-    /* text-indent: 20px; */
 }
 
-h4{
-    
-    /* flex-grow: unset; */
+.ingrediants, .steps{
     color: rgb(255, 136, 0);
     font-size: 50px;
     margin-top: -20px;
